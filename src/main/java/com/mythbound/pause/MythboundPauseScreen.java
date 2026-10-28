@@ -35,7 +35,6 @@ public void render(DrawContext context, int mouseX, int mouseY, float delta) {
     context.drawTexture(ART, 0, 0, 0.0F, 0.0F, W, H, W, H);
 
     context.getMatrices().pop();
-}
   }
   private boolean hit(double x,double y,int a,int b,int c,int d){return x>=a&&x<=c&&y>=b&&y<=d;}
   @Override public boolean mouseClicked(double mx,double my,int button){
