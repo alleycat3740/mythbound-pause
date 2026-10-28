@@ -25,7 +25,7 @@ public final class MythboundPauseScreen extends Screen {
   }
   @Override public void render(DrawContext context,int mouseX,int mouseY,float delta){
     renderBackground(context,mouseX,mouseY,delta);
-    context.drawTexture(ART, left, top, 0, 0, drawW, drawH, W, H, W, H);
+    context.drawTexture(ART, left, top, 0.0F, 0.0F, drawW, drawH, W, H);
   }
   private boolean hit(double x,double y,int a,int b,int c,int d){return x>=a&&x<=c&&y>=b&&y<=d;}
   @Override public boolean mouseClicked(double mx,double my,int button){
