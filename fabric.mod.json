@@ -1,1 +1,0 @@
-{"schemaVersion":1,"id":"mythbound_pause","version":"${version}","name":"Mythbound Illustrated Pause Menu","environment":"client","entrypoints":{"client":["com.mythbound.pause.MythboundPauseClient"]},"depends":{"fabricloader":">=0.17.2","minecraft":"1.21.1","fabric-api":"*"}}
